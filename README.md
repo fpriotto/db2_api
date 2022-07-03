@@ -7,7 +7,7 @@ This project aims to connect to Db2 on cloud and use ibm_db API to issue SQL sta
 - Work with real world Datasets; and
 - Issue SQL statements using python libraries.
 
-This project shows these concepts applied to a real world scenario, and was developed according to and following recommendations of IBM Data Engineer course (available at https://www.coursera.org/professional-certificates/ibm-data-engineer?action=enroll&aid=true)
+This project shows these concepts applied to a real world scenario, and was developed according to and following recommendations of IBM Data Engineer course (available at https://www.coursera.org/professional-certificates/ibm-data-engineer)
 
 ## Usage
 
