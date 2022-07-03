@@ -19,4 +19,4 @@ virtualenv .env && source .env/bin/activate && pip install -r requirements.txt
 
 This will install requirements listed in requirements.txt file and activate the virtual environment. Once this is done, it is possible to execute the .py script given that the credentials to access Db2 on cloud are valid.
 
-The data used to practice the concepts mentioned above can be found in https://data.cityofchicago.org/Education/Chicago-Public-Schools-Progress-Report-Cards-2011-/9xs2-f89t/data
+The data used to practice the concepts mentioned above can be found at https://data.cityofchicago.org/Education/Chicago-Public-Schools-Progress-Report-Cards-2011-/9xs2-f89t/data
