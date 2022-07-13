@@ -11,12 +11,12 @@ This project shows these concepts applied to a real world scenario, and was deve
 
 ## Usage
 
-In order to reproduce results obtained by the .py script, it is necessary to execute the following line in a Linux environment:
+In order to reproduce results obtained, it is necessary to execute the bash script in a Linux environment:
 
 ```bash
-virtualenv .env && source .env/bin/activate && pip install -r requirements.txt
+bash setup.sh
 ```
 
-This will install requirements listed in requirements.txt file and activate the virtual environment. Once this is done, it is possible to execute the .py script given that the credentials to access Db2 on cloud are valid.
+This will install requirements listed in requirements.txt file, activate the virtual environment and run the python script responsible for connecting to Db2 and issue SQL commands. Note that in order for the db2-api.py file to work, valid credentials must be entered in respective fields below "confident info" comment such as host name, user id, password, etc.
 
 The data used to practice the concepts mentioned above can be found at https://data.cityofchicago.org/Education/Chicago-Public-Schools-Progress-Report-Cards-2011-/9xs2-f89t/data
