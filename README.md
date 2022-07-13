@@ -1,6 +1,6 @@
 # db2_api
 
-This project aims to connect to Db2 on cloud and use ibm_db API to issue SQL statements to specific tables in the database. As a Data Engineer, one must know how to:
+This project aims to connect to Db2 on cloud and use ibm_db API to issue SQL statements to specific and different tables in a database to answer common questions that could be found in a Data Engineer routine, such as "Which Schools have Average Student Attendance lower than 70%?" or "List 5 schools with lowest safety score". As a Data Engineer, one must know how to:
 
 - Access databases using python;
 - Write code using APIs;
@@ -19,4 +19,4 @@ bash setup.sh
 
 This will install requirements listed in requirements.txt file, activate the virtual environment and run the python script responsible for connecting to Db2 and issue SQL commands. Note that in order for the db2-api.py file to work, valid credentials must be entered in respective fields below "confident info" comment such as host name, user id, password, etc.
 
-The data used to practice the concepts mentioned above can be found at https://data.cityofchicago.org/Education/Chicago-Public-Schools-Progress-Report-Cards-2011-/9xs2-f89t/data
+The data used to practice the concepts mentioned above can be found at https://data.cityofchicago.org/.
