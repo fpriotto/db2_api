@@ -14,13 +14,13 @@ This project shows these concepts applied to a real world scenario, and was deve
 In order to reproduce results obtained, it is necessary to execute the setup script in a Linux environment:
 
 ```bash
-bash setup.sh
+./setup.sh
 ```
 
 Once requirements are installed, run the script as below:
 
 ```bash
-bash run.sh
+./run.sh
 ```
 
 This will install requirements listed in requirements.txt file, activate the virtual environment and run the python script responsible for connecting to Db2 and issue SQL commands. Note that in order for the db2-api.py file to work, valid credentials must be entered in respective fields below "confident info" comment such as host name, user id, password, etc.
